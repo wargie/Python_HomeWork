@@ -1,3 +1,4 @@
+#Найти расстояние между двумя точками пространства
 import math
 def metod_odleglosci(xa, ya, za, xb, yb, zb):
     odleglosc = math.sqrt((xb - xa)**2 + (yb - ya)**2 + (zb - za)**2)
